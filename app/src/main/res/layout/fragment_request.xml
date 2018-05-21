@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mit.oep_final1.request">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/leavetype"
+        android:hint="leave type"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:id="@+id/leavereason"
+        android:hint="leave reason"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/leavetype"
+        android:layout_alignStart="@+id/leavetype" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btnbackground"
+        android:textColor="@android:color/background_light"
+        android:text="from"
+        android:id="@+id/from"
+        android:layout_marginStart="45dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/totaldays" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btnback2"
+        android:textColor="@android:color/background_light"
+        android:text="  to  "
+        android:id="@+id/to"
+        android:layout_above="@+id/totaldays"
+        android:layout_alignEnd="@+id/totaldays"
+        android:layout_marginEnd="27dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/totaldays"
+        android:hint="total days"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/from"
+        android:layout_alignStart="@+id/leavereason" />
+
+    <Spinner
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:id="@+id/spinner"
+        android:layout_below="@+id/totaldays"
+        android:layout_alignStart="@+id/totaldays"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btnback3"
+        android:textColor="@android:color/background_light"
+        android:text="submit request"
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_view_employee"
+            android:icon="@drawable/ic_emp"
+            android:title="View Employee" />
+        <item
+            android:id="@+id/nav_view_request"
+            android:icon="@drawable/ic_request"
+            android:title="View pending Request" />
+        <item
+            android:id="@+id/nav_approved_request"
+            android:icon="@drawable/ic_approved"
+            android:title="View Aprroved Request" />
+        <item
+            android:id="@+id/nav_rejected_request"
+            android:icon="@drawable/ic_reject"
+            android:title="View Rejected Request" />
+
+    </group>
+
+    <item android:title="Other Functions">
+        <menu>
+            <item
+                android:id="@+id/nav_update_emp"
+                android:icon="@drawable/ic_settings"
+                android:title="Updated Employee" />
+            <item
+                android:id="@+id/nav_remove_emp"
+                android:icon="@drawable/ic_delete"
+                android:title="Delete Employee" />
+            <item
+                android:id="@+id/nav_logout2"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

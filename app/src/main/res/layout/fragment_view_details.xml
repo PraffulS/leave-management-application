@@ -1,0 +1,135 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mit.oep_final1.view_details">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/viewtxtheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:inputType="text"
+            android:text=" Your Details "
+            android:textSize="30dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/holo_green_light"
+            />
+
+        <TextView
+            android:id="@+id/viewtxtid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:inputType="text"
+            android:text="Default Contact number"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+        <TextView
+            android:id="@+id/viewtxtuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:inputType="text"
+            android:text="Default Username"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+        <TextView
+            android:id="@+id/viewtxtpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:inputType="text"
+            android:text="Default Username"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+        <TextView
+            android:id="@+id/viewtxtdept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:inputType="text"
+            android:text="Default department"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+        <TextView
+            android:id="@+id/viewtxtdesignnation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:inputType="text"
+            android:text="Default designation"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+        <TextView
+            android:id="@+id/viewtxtjoindate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:inputType="text"
+            android:text="Default designation"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+        <TextView
+            android:id="@+id/viewtxtphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:inputType="text"
+            android:text="Default phone no."
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+        <TextView
+            android:id="@+id/viewtxttotaldays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:inputType="text"
+            android:text="Default total leave days"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+        <TextView
+            android:id="@+id/viewtxtremaindays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:inputType="text"
+            android:text="Default remaining days"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+
+
+    </LinearLayout>
+
+</ScrollView>

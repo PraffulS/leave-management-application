@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mit.oep_final1.singup1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/regtxtheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Register YourSelf"
+            android:textSize="20dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+        <EditText
+            android:id="@+id/regtxtempid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="30dp"
+            android:width="200dp"
+            android:hint="Enter your ID"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/regtxtusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:hint="Enter User name"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/regtxtpass1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:hint="Enter password"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/regtxtpass2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            />
+        <EditText
+            android:id="@+id/regtxtdept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Department ID"
+            android:inputType="textAutoComplete"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            />
+        <EditText
+            android:id="@+id/regtxtdesignation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Your Designation"
+            android:inputType="textAutoComplete"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            />
+
+        <EditText
+            android:id="@+id/regtxtjoindate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="joining date"
+            android:inputType="text"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            />
+        <EditText
+            android:id="@+id/reftxtphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:hint="Contact number"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/regbtnsubmit"
+            android:layout_width="177dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="20dp"
+            android:text="Singup"
+            android:background="@drawable/btnback3"
+            android:textColor="@android:color/background_light"
+            />
+
+    </LinearLayout>
+
+</ScrollView>

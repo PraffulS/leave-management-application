@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_viewprofile"
+            android:icon="@drawable/ic_profile"
+            android:title="View Profile" />
+        <item
+            android:id="@+id/nav_updateprofile"
+            android:icon="@drawable/ic_setting"
+            android:title="Update Profile" />
+        <item
+            android:id="@+id/nav_newrequest"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Register a Request" />
+        <item
+            android:id="@+id/nav_viewrequest"
+            android:icon="@drawable/ic_view"
+            android:title="View Requests" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_about"
+                android:title="Contact US" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

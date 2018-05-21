@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">OEP_final1</string>
+    <string name="title_activity_after_login">after_login</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="joining_data_mm_dd_yyy">Joining data mm-dd-yyyy</string>
+    <string name="title_activity_admin_panel">admin_panel</string>
+</resources>

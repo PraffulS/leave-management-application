@@ -1,0 +1,106 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mit.oep_final1.update_profile">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/updatetxtheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:text="Update Information"
+            android:textSize="24dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+        <EditText
+            android:id="@+id/updatetxtusername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="20dp"
+            android:width="200dp"
+            android:hint="Enter User name"
+            android:inputType="text" />
+        <EditText
+            android:id="@+id/updatetxtpass1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:hint="Enter password"
+            android:inputType="textPassword" />
+        <EditText
+            android:id="@+id/updatetxtpass2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            />
+        <EditText
+            android:id="@+id/updatetxtdept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Department ID"
+            android:inputType="textAutoComplete"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            />
+        <EditText
+            android:id="@+id/updatetxtdesignation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Your Designation"
+            android:inputType="textAutoComplete"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            />
+
+        <EditText
+            android:id="@+id/updatetxtjoindate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Joining date"
+            android:inputType="text"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            />
+        <EditText
+            android:id="@+id/updatetxtphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="10dp"
+            android:width="200dp"
+            android:hint="Contact number"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/updatebtnsubmit"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="20dp"
+            android:text="Update"
+            android:background="@drawable/btnback3"
+            android:textColor="@android:color/background_light"
+            />
+    </LinearLayout>
+</ScrollView>
